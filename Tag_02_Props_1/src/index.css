@@ -1,0 +1,12 @@
+.productDiv{
+  display: flex;
+  justify-content: space-around;
+}
+button{
+  width: 100px;
+  height: 30px;
+  background-color: lightsalmon;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
