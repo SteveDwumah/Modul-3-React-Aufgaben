@@ -17,7 +17,7 @@ function DayNightSwitch() {
         alignItems: "center"
       }}>
         <h1 style={{ color: isDarkMode ? "white" : "black" }}>
-          {isDarkMode ? "Night" : "Day"}
+          {isDarkMode ? "Night 🌝" : "Day 🌞"}
         </h1>
         <button
           onClick={toggleMode}
