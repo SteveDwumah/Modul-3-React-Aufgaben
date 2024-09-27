@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import logo from "./assets/img/c2cb0207a08d19a7f8bb1526d32052cd.png"
 
 interface Beer {
