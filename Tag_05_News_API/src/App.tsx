@@ -31,11 +31,16 @@ function App() {
   }, []);
 
   const newsElements = news.map((singleNews) =>{
-    return <NewsCard title={singleNews.title}/>
+    return <NewsCard title={singleNews.title} author={singleNews.author}/>
   })
 
   return <div>
+    <h1>Breaking News</h1>
+    <br />
+    <div style={{display: "none"}}>
     {newsElements}
+    </div>
+    <button>Search</button>
   </div>;
 }
 
